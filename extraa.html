@@ -1,0 +1,78 @@
+<!DOCTYPE html> 
+<html lang="en">
+  
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js" defer></script>
+
+</head>
+
+<body onLoad="initClock()">
+
+
+    <div class="container-fluid">
+
+        <!-- <nav class="navbar navbar-expand-lg " style="background-color:#00004d"> -->
+            <!-- <img src="celebal.jpg" class="img" alt=""> -->
+            <!-- <span id="time"  color: "white"></span> -->
+            <!-- <p id="tens" style="color:white"></p> -->
+
+        <!-- </nav> -->
+        <label class="date" >Date:-<p id="currentDate"></p></label>
+        <label class="timeClock" id="display">00:00:00</label>
+        <button id="startStop" class='btn btn-success btnCheckIn' onclick="startStop()"><i class="fa fa-clock-o"></i> Check-In</button>
+        <!-- <input type="search" id="search-input" onkeyup="searchFun()"> -->
+        <table class="table table-borderless imgtable" id="myTable">
+            <thead>
+                <tr>
+                    <th> Week-days
+                        <!-- <select name="Days" id="days" required>
+            <option value="select" >Select Days</option>
+            <option value="Sunday">Sunday</option>
+            <option  value="Monday">Monday</option>
+            <option value="Tuesday">Tuesday</option>
+            <option value="Wednesday">Wednesday</option>
+            <option value="Thursday">Thursday</option>
+            <option value="Friday">Friday</option>
+            <option value="Saturday">Saturday</option>
+
+          </select> -->
+                    </th>
+                    <th>Check-in</th>
+                    <th>Check-out</th>
+                    <th>Session-Hours</th>
+                    <th>Total Hours</th>
+
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="time"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+    </div>
+
+
+</body>
+<script src="script.js" charset="utf-8"></script>
+
+</html>

@@ -1,0 +1,62 @@
+.display{
+margin-left: 90%;
+}
+.timeClock{
+  margin-left: 81%;
+  font-size: large;
+  font-weight: bold;
+  margin-top: 1%;
+  /* position: absolute; */
+}
+.btnCheckIn{
+  margin-top: -5%;
+  margin-left: 88%;
+}
+.date{
+  position: absolute;
+  /* padding-top: 20px; */
+  font-size: large;
+  font-weight: bold;
+  margin-top: 1%;
+  display: flex;
+}
+/* .img{
+  background-size: 10% 100%;
+} */
+.navbar{
+  background-image: url("celebal.jpg");
+  color: white;
+  background-size: 10% 100%;
+  background-repeat: no-repeat;
+}
+select{
+  outline: none;
+  border: none;
+}
+.table{
+  margin: 1%;
+}
+#tens{
+  margin-left: 40%;
+}
+/* #time{
+  text-align: center;
+  margin-left: 40%;
+} */
+
+.ofcimg{
+  width: 100%;
+  height: 20%;
+  background-size: cover;
+  filter: blur(3px);
+/* -webkit-filter: blur(1px); */
+position: relative;
+    
+}   
+.imgtable{
+  position: absolute;
+  margin-top: 0%;
+  border: none;
+  font-weight: bold;
+} 
+
